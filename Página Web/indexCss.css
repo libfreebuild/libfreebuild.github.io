@@ -1,0 +1,131 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: black;
+}
+.header{
+	width: 100%;
+	height: 34px;
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+	border: 1px solid white;
+}
+.content{
+	background-image: url("fond.jpg");
+	margin-top: 0.5%;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	border: 1px solid white;
+}
+
+.bod{
+	width: 97%;
+	height: 39px;
+	margin-top: 19px;
+	margin-left: 21px;
+	text-align: center;
+	text-decoration: underline;
+	padding-top: 7px;
+	padding-left: 7px;
+	border: 1px solid white;
+	color: white;
+	font-size: 24px;
+	border-radius: 5px;
+	background-color: grey;
+ }
+.bod_{
+	width: 390px;
+	height: 39px;
+	margin-top: 11px;
+	margin-left: 21px;
+	text-align: left;
+	text-decoration: underline;
+	padding-top: 7px;
+	padding-left: 7px;
+	border: 1px solid white;
+	color: white;
+	font-size: 24px;
+	border-radius: 5px;
+	background-color: grey;
+ }
+ 
+ .menu ul{
+ 	margin-top: 21px;
+
+ }
+ .menu ul li{
+ 	list-style: none;
+ 	width: 350px;
+ 	height: 23px;
+ 	margin-top: 5px;
+	margin-left: 21px;
+	text-align: left;
+	text-decoration: underline;
+	padding-top: 7px;
+	padding-left: 7px;
+	border: 1px solid white;
+	color: white;
+	font-size: 17px;
+	border-radius: 5px;
+	background-color: grey;
+	opacity: 0.8;
+ }
+ .menu ul li:hover{
+ 	opacity: 1;
+ }
+ .menu ul li a{
+ 	color: white;
+ 	text-decoration: none;
+ }
+ .menu ul ul{
+			transition: all 1.4s;
+			opacity: 0;
+			visibility: hidden;
+			position: absolute;
+			left: 35%;
+			top: 14%;
+		}
+
+.menu ul li:hover > ul{
+			opacity: 1;
+			visibility: visible;
+		}
+
+.menu ul li ul li{
+	text-align: center;
+}
+.formulario {
+	margin: auto;
+	width: 380px;
+ 	height: 23px;
+ 	max-width: 380;
+ 	max-height: 23px;
+	background: grey;
+	padding: 14px;
+	border: 1px solid white;
+	border-radius: 5px;
+	margin-top: 161px;
+	margin-left: 21px;
+	opacity: 0.8;
+	margin-bottom: 12px;
+}
+
+.formulario:hover{
+	opacity: 1;
+}
+.registro{
+	float: left;
+	margin-left: 74%;
+	margin-top: -34%
+}
+
+.registro input{
+	width: 320px;
+	height: 23px;
+	border-radius: 5px;
+	border: 1px solid white;
+}

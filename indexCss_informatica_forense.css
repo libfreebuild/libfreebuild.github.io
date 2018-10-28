@@ -38,6 +38,44 @@ body{
 .header ul li a{
 	color: #fff;
 }
+.ana_fo table {
+	border: 3px solid white;
+	background color: black;
+	height: 24px;
+}
+.ana_fo table, tr{
+	border: 1px solid white;
+	background-color: black;
+	height: 24px;
+	margin-left: 4px;
+	margin-right: 4px;
+	padding: 7px;
+}
+.ana_fo_win a {
+	color: #fff;
+	font-size: 24px;
+	text-decoration: none;
+	background-color: ;
+	max-width: 200px;
+	text-align: center;
+	color: white;
+}
+
+.ana_fo_li a {
+	color:white;
+	font-size: 24px;
+	text-decoration: none;
+	background-color: none;
+	margin-top: ;
+	text-align: center;
+}
+.ana_fo_ma a {
+	color:white;
+	font-size: 24px;
+	text-decoration: none;
+	background-color: none;
+	margin-top: ;
+}
 .content{
 	background-image: url("fond.jpg");
 	margin-top: 1%;
@@ -102,7 +140,7 @@ body{
  	color: white;
  	padding: 1px;
  	opacity: .8;
- 	background-color: black;
+ 	background-color: ;
  	padding: 14px;
  	margin: 15px;
  	font-size: 17px;
