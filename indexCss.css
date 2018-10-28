@@ -1,0 +1,170 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: black;
+}
+.header{
+	width: 100%;
+	height: 70px;
+	margin: 0px;
+	padding: 10px 70px;
+	background-color: black;
+	box-sizing: border-box;
+	border: 1px solid white;
+	background: rgba(0,0,0,.8);
+}
+.header ul{
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+.header ul li{
+	list-style: none;
+}
+.header ul li a{
+	line-height: 80px;
+	color: #151515;
+	padding: 12px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .3s;
+}
+.header ul li a{
+	color: #fff;
+}
+.content{
+	background-image: url("fond.jpg");
+	margin-top: 0.5%;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	border: 1px solid white;
+	background-size: cover;
+	background-position: center;
+}
+
+.bod{
+	width: 97%;
+	height: 39px;
+	margin-top: 19px;
+	margin-left: 21px;
+	text-align: center;
+	text-decoration: underline;
+	padding-top: 7px;
+	padding-left: 7px;
+	border: 1px solid white;
+	color: white;
+	font-size: 24px;
+	border-radius: 5px;
+	background-color: grey;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.8);
+	text-transform: uppercase;
+ }
+.bod_{
+	width: 390px;
+	height: 39px;
+	margin-top: 11px;
+	margin-left: 21px;
+	text-align: left;
+	text-decoration: underline;
+	padding-top: 7px;
+	padding-left: 7px;
+	border: 1px solid white;
+	color: white;
+	font-size: 24px;
+	border-radius: 5px;
+	background-color: grey;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.8);
+ }
+ 
+ .menu ul{
+ 	margin-top: 21px;
+ 	background-color: black;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.8);
+	text-transform: uppercase;
+
+ }
+ .menu ul li{
+ 	list-style: none;
+ 	width: 400px;
+ 	height: 23px;
+ 	margin-top: 5px;
+	margin-left: 21px;
+	text-align: left;
+	text-decoration: underline;
+	padding-top: 0;
+	padding-left: 7px;
+	border: 1px solid white;
+	color: white;
+	font-size: 17px;
+	border-radius: 5px;
+	background-color: grey;
+	opacity: 0.8;
+	background-color: black;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.8);
+	text-transform: uppercase;
+ }
+ .menu ul li:hover{
+ 	opacity: 1;
+ }
+ .menu ul li a{
+ 	color: white;
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+ }
+ .menu ul ul{
+			transition: all 1.4s;
+			opacity: 0;
+			visibility: hidden;
+			position: absolute;
+			left: 35%;
+			top: 19%;
+		}
+
+.menu ul li:hover > ul{
+			opacity: 1;
+			visibility: visible;
+		}
+
+.menu ul li ul li{
+	text-align: center;
+}
+.formulario {
+	margin: auto;
+	width: 380px;
+ 	height: 23px;
+ 	max-width: 380;
+ 	max-height: 23px;
+	background: grey;
+	padding: 14px;
+	border: 1px solid white;
+	border-radius: 5px;
+	margin-top: 212px;
+	margin-left: 21px;
+	opacity: 0.8;
+	margin-bottom: 12px;
+}
+
+.formulario:hover{
+	opacity: 1;
+}
+.registro{
+	float: left;
+	margin-left: 74%;
+	margin-top: -34%;
+}
+
+.registro input{
+	width: 320px;
+	height: 23px;
+	border-radius: 5px;
+	border: 1px solid white;
+}

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>www.liberty_free.org</title>
+	<link rel="stylesheet" type="text/css" href="indexCss_informatica_forense.css"/>
+
+</head>
+<body>
+	<div class="content">
+		<div class="header">
+			<ul>
+				<li><a href="">Unix/Linux</a></li>
+				<li><a href="">Apple/Mac OS X</a></li>
+				<li><a href="">Windows</a></li>
+			</ul>
+		</div>
+		<div class="bod">Liberty Free</div>
+		<div class="bod_">Informática Forense</div>
+		<center>
+		<div id="cua_0">
+			<h3>Primeros Pasos</h3><br>
+			<p>
+				Equipado con una cámara digital, un rotulador para CD y un juego completo de destornilladores.<br>
+				Si hay un ordenador encendido no permitir que nadie lo toque.<br>
+				Lo primero que se hará es fotografiar las pantallas de los ordenadores.<br>
+				También fotografiar los equipos y todo el material.<br>
+				Acto seguido apagará los equipos sacando los enchufes de la red.<br>
+				Esto normalmente no se debe hacer nunca.</br>
+				Un apagado ordenado podría elimiar parte de los archivos temporales, que por lo general se borran automáticamente al detener el sistema,
+				perdiendose así elementos potenciales de evidencia o quedando alterada la prueba del delito.<br>
+				A veces el apagado no es inmediato sino que antes de quitar el enchufe de la red un experto en Informática Forense, valiéndose de una herramienta
+				de software adecuada, extrae una imagen de la memoria de el ordenador para analizar los procesos en ejecución.
+			</p>
+			<h3>Objetos intervenidos</h3>
+			<p>
+			Para el investigador forense son importantes los elementos y objetos que se mencionan a continuación<br>
+			-Ordenadores de sobremesa, portátiles, agendas electrónicas, smartphones y teléfonos móviles<br>
+			-Discos duros de ordenador<br>
+			-Discos duros extraibles y portátiles<br>
+			-Unidades de almacenamiento externas de todo tipo (llaves USB, reproductores MP3, tarjetas para cámara digital, etc)<br>
+			-Discos ópticos CD y DVD grabables y regrabables<br>
+			-Disquetes<br>
+			-Todo soporte externo que sirva para un almacenamiento de datos permanente<br>
+			</p>
+			<h3>Comunicación entre sistemas operativos que soportan el protocolo NetBIOS de Microsoft</h3>
+			<p>En la fase de escaneo de puertos, el atacante, utilizando herramientas de software automatizadas, intenta conectar con los puertos de un host
+			para averiguar cuáles están abiertos.<br>
+
+			Durante la fase de enumeración el atacante intenta averiguar qué aplicaciones funcionan conectadas a los puertos escaneados en las direcciones
+			IP de destino: sistemas operativos, servidores web o herramientas administrativas cuyos defectos de configuración o fallos de software figuren
+			mecionados en alguna lista de bugs en Internet.<br><br>
+
+			Al atancante no solo le interesa el tipo de software, sino también las versiones y los parches de seguridad instalados, puesto que de esta información
+			podrá extraer conclusiones relativas a las deficiencias de seguridad explotables con vistas a un intento de intrusión.<br>
+
+			El objetivo de el atacante consiste en lograr acceso al sistema suplantando a un usuario, haciéndose con privilegios del administrador o por otros
+			métodos más sofisticados.<br><br>
+
+			Una vez que consiga el acceder al interior de un sistema, el atacante podrá espiar el tráfico de la red, instalar software parásito o robar datos.<br>
+			Si el objetivo una vez tomado parece bueno para convertilo en una base de operaciones permanente, será el propio atacante quien instale los propios
+			parches de seguridad que faltan para evitar que otros vengan detrás de él perturbando la paz del sistema y llamando la atención del administrador.<br><br>
+
+			Un método habitual consiste en instalar un -rootkit que haga posible un control remoto del ordenador para utilizarlo con diversos fines - robos de datos
+			sin que las mismas figuren listadas por el comando -ls de Linux o el Administrador de procesos de Windows.<br><br>
+
+			Si un atacante ha conseguido privilegios de administrador intentará suprimir -logs o archivos de registro del sistema todos aquellos datos que
+			pudieran ser reveladores de su actividad, o al menos los alterará para disimular la intrusión. Esto implica borrar -logs, e -historiales de internet,
+			reiniciar el sistema de registro de eventos del sistema y otras manipulaciones similares.<br><br>
+
+			Ya hemos dicho antes que por norma no se trabaja con el soporte original sino con una copia a bajo nivel del mismo.<br>
+			La copia puede estar basada en un soporte físico duplicado o en un archivo de ordenador.<br>
+			Dicho archivo no resulta ser un simple Backup sino una imagen completa del medio de almacenamiento de datos, incluyendo el espacio no asignado por los 
+			sistemas de archivos, los archivos borrados e incluso datos que pudieran haber existido antes de que el soporte fuese formateado.<br><br>
+			La imagen completa de un soporte incluye todas las particiones, los espacios de disco duro sin utilizar entre las mismas, la tabla de particiones, el sector
+			de arranque e incluso zonas reservadas como la HPA(Host Protected Area) y la DCO (Data Configuratión Overlay), generalmente inaccesibles al sistema y
+			utilizadas por el fabricante para incluir informacion especial o reducir la capacidad de almacenamiento de un dispositivo por razones de diversa índole,
+			generalmente tecnológicas o de marketing.<br><br>
+
+			Para obtener una imagen a bajo nivel es necesario conectar el soporte de datos a una estación de trabajo provista de herramientas que permitan el acceso en modo
+			de solo lectura. Mucho mejor sería forzar el modo de solo lectura mediante dispositivos de hardware que impidan cualquier operación de escritura (write blocker).<br><br>
+			Las herramientas de software utilizadas para la adquisición forense(dd, EnCase, FTK, Air, etc) deben ser capaces de funcionar independientemente de las estructuras
+			de datos del sistema de archivo.<br><br>
+
+			Una vez que el investigador ha terminado su análisis deberá preparar sus resultados para que los mismos puedan ser compartidos con las personas que se van a encargar
+			de utilizarlos con fines prácticos o hacerlos valer ante los tribunales. En el informe definitivo deberá dejar constancia documental precisa de todas las operaciones
+			realizadas, los elementos de evidencia localizados y cualquier otro tipo de aspecto de interes.<br><br>
+
+			Las pruebas no deben sufrir alteraciones de ningún tipo, generalmente -disco duro, pendrive o CD/DVD - se precinta después de haber obtenido tres copias cuyos hashses
+			han de coincidir. Con una de ellas se llevará a cabo su análisis el investigador. Otra se guardará con respaldo, y la tercera será puesta a disposición de la parte contraria
+			para que esta pueda realizar sus propias averiguaciones, manifestar su posición al respecto o elaborar un contrainforme.<br><br>
+
+			Para adquirir un soporte es necesario establecer una conexión hardware. El método habitual consiste en desmontar el disco duro, llevarlo al laboratorio y conectarlo a una
+			estación de trabajo forense. Si se trata de un disco IDE se puede conectar en el primer interfaz IDE como SLAVE(dando por supuesto que en MASTER está el disco con el sistema
+			operativo y las herramientas de la investigación forense). No olvide configurar los jumpers adecuadamente.<br><br>
+			Si el disco es de tipo SATA se podrá conectar a cualesquiera de los interfaces SATA que tengamos disponibles.<br>
+			También se puede emplear un adaptador USB o FireWire para la lectura de discos IDE y/o SATA.<br>
+			Para discos SCSI necesitaremos una tarjeta adaptadora y un cable de datos.
+			La adquisición se llevará a cabo a través de un bloqueador de escritura o write blocker.<br><br>
+
+			En determinados casos en la organización que a sufrido el incidente no se pueda permitir mantener el ordenador apagado el ordenador por tratarse de un servicio imprescindible,
+			la adquisición puede hacerse con la máquina en funcionamiento a través de la red local mediante NetCat o CryptCat.<br></p>
+
+		</div>
+		<div class="bod_">Herramientas Forenses</div>
+			<div class="tabla">
+					<div id="color_b" class="contenedor">
+						<a href=""><img class="icon" src="for_img/for_enc.jpg">
+						<p class="texto">EnCase & Linen
+						</p></a></div >
+					<div id="color_b" class="contenedor">
+						<a href=""><img class="icon" src="for_img/for_dd.jpg">
+						<p class="texto">dd</p></a></div >
+					<div id="color_b" class="contenedor">
+						<a href=""><img class="icon" src="for_img/for_dcfldd.jpg">
+						<p class="texto">dcfldd</p></a></div >
+					<div id="color_b" class="contenedor">
+						<a href=""><img class="icon" src="for_img/for_dc3dd.jpg">
+						<p class="texto">dc3dd</p></a></div >
+					<div id="color_b" class="contenedor">
+						<a href=""><img class="icon" src="for_img/for_ddrescue.png">
+						<p class="texto">ddrescue</p></a></div >
+					<div id="color_b" class="contenedor">
+						<a href=""><img class="icon" src="for_img/for_air.jpg">
+						<p class="texto">AIR</p></a></div >
+			</div>
+			<div class="ad">
+			<h3>Adquisición por hardware</h3>
+			<p>
+			Existen dispositivos exclusivamente dedicados a la copia de soporte de datos, principalmente discos duros con interfaces habituales IDE/SATA, que evitan tener que utilizar un ordenador en el proceso de adquisición
+			forense.
+			Estos aparatos alcanzan grandes velocidades de transferencia, extraen hashes, elaboran  de actividad y admiten comprensión. La ventaja de estos aparatos saltan a la vista y compensan de sobra un coste de 
+			adquisición que, gracias a la competencia entre los fabricantes de este tipo de hardware, es ya incluso inferior al de un PC de gama baja.</p>
+			</div>
+			<div class="bod_">Análisis de una imagen forense con -TSK</div>
+	
+	
+	<div class="ad_">
+			<h3>The Sleuth Kit</h3>
+			<p>The Sleuth Kit, un conjunto de herramientas de código libre
+				-www.sleuthkit.org<br>
+				Grupos de herramientas<br>
+				-mm- herramientas que trabajan con volúmenes (media management): mmstat, mmls, mmcat<br>
+				-fs- herramientas que sirven para el análisis de sistemas de archivos: fsstat<br>
+				-blk- herramientas que funcionan en el plano de los bloques de datos: blkls, blkcat,blkcalc<br>
+				-i- herrampientas para la investigación de metadatos (inodes): icat, ifind, istat, ils<br>
+				-f- herramientas características del nivel de nombres de archivos: fls, ffind<br>
+			</p>
+			</div>
+			<div class="bod_">Herramientas TSK</div>
+			<div class="tabla">
+				<h3>Herramientas que trabajan con volúmenes(media management)</h3>
+					<div id="color_b" class="contenedor">
+						<a href=""><img class="icon" src="for_img/for_mmstat.jpg">
+						<p class="texto">mmstat
+						</p></a></div >
+					<div id="color_b" class="contenedor">
+						<a href=""><img class="icon" src="for_img/for_mmls.png">
+						<p class="texto">mmls</p></a></div >
+					<div id="color_b" class="contenedor">
+						<a href=""><img class="icon" src="for_img/for_mmcat.png">
+						<p class="texto">mmcat</p></a></div >
+			</div>
+			<div class="tabla_">
+				<h3>Herramientas que sirven para el análisis de sistemas de archivos</h3>
+					<div id="color_b" class="contenedor">
+						<a href=""><img class="icon" src="">
+						<p class="texto">fsstat
+						</p></a></div >
+			</div>
+			<div class="tabla_">
+				<h3>Herramientas que funcionan en el plano de bloques de datos</h3>
+					<div id="color_b" class="contenedor">
+						<a href=""><img class="icon" src="">
+						<p class="texto">blkls
+						</p></a></div >
+					<div id="color_b" class="contenedor">
+						<a href=""><img class="icon" src="">
+						<p class="texto">blkcat
+						</p></a></div >
+					<div id="color_b" class="contenedor">
+						<a href=""><img class="icon" src="">
+						<p class="texto">blkcalc
+						</p></a></div >
+			</div>
+			<div class="tabla_">
+				<h3>Herramientas para investigación de metadatos (inodes)</h3>
+					<div id="color_b" class="contenedor">
+						<a href=""><img class="icon" src="">
+						<p class="texto">icat
+						</p></a></div >
+					<div id="color_b" class="contenedor">
+						<a href=""><img class="icon" src="">
+						<p class="texto">ifind
+						</p></a></div >
+					<div id="color_b" class="contenedor">
+						<a href=""><img class="icon" src="">
+						<p class="texto">istat
+						</p></a></div >
+					<div id="color_b" class="contenedor">
+						<a href=""><img class="icon" src="">
+						<p class="texto">ils
+						</p></a></div >
+			</div>
+			<div class="tabla_">
+				<h3>Herramientas características del nivel de nombres de archivos</h3>
+					<div id="color_b" class="contenedor">
+						<a href=""><img class="icon" src="">
+						<p class="texto">fls
+						</p></a></div >
+					<div id="color_b" class="contenedor">
+						<a href=""><img class="icon" src="">
+						<p class="texto">ffind
+						</p></a></div >
+			</div>
+			<div class="tabla_">
+				<h3>Herramientas journaling</h3>
+					<div id="color_b" class="contenedor">
+						<a href=""><img class="icon" src="">
+						<p class="texto">jcat
+						</p></a></div >
+					<div id="color_b" class="contenedor">
+						<a href=""><img class="icon" src="">
+						<p class="texto">jls
+						</p></a></div >
+			</div>
+			<div class="tabla_">
+				<h3>Análisis de formato de imágenes</h3>
+					<div id="color_b" class="contenedor">
+						<a href=""><img class="icon" src="">
+						<p class="texto">img_stat
+						</p></a></div >
+					<div id="color_b" class="contenedor">
+						<a href=""><img class="icon" src="">
+						<p class="texto">img_cat
+						</p></a></div >
+			</div>
+			<div class="ad">
+			<h3>TSK</h3>
+			<p>-tsk_comparedir: compara una jerarquia local de directorios con otra presente en una imagen. Esto puede resultar útil para detectar -rootkits<br>
+			-tsk_gettimes: extracción de todos los datos temporales para construir una línea de tiempo<br><br>
+			-tsk_loaddb: tranfiere todos los metadatos de una imagen a una base de datos SQLite, lo cual resulta de gran ayuda cuando se quiere estudiar la
+			evidencia con herramientas desarrolladas para otros sistemas operativos o creadas con algún lenguaje de programación específico.<br>
+			-tsk_recover: extrae un directorio de los archivos existentes en una imagen de disco<br>
+			-disk_sreset: elimina temporalmente una HPA en caso de que la misma exista. De este modo se podrá acceder a datos guardados en una parte normalmente inaccesible del soporte de datos.<br>
+			Una vez realizada la adquisición y reseteado el sistema, la HPA volverá a aparecer.<br>
+			-disk_stat: indica la presencia de una HPA<br>
+			-mactime: utiliza la salida de las herramientas -fls e -ils para crear una línea de tiempo descriptiva de la actividad realizada con los archivos<br>
+			-sorter: selecciona los archivos por el tipo de los mismos, comprobando sus extensiones y la correspondencia de hashes con bases de datos de archivos conocidos.<br>
+			-sigfind: busca valores binarios con un -offset o desplazamiento determinado. Muy útil para recuperar estructuras de datos.<br>
+
+			Tsk funciona a través de una interfaz gráfica llamada Autopsy el cual facilita el manejo de las herramientas<br>
+			</p>
+			</div>
+			</center>
+			<div  class="footer"></div>
+</body>
+</html>
