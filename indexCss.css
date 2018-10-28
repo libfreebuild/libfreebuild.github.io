@@ -39,12 +39,14 @@ body{
 .content{
 	background-image: url("fond.jpg");
 	margin-top: 0.5%;
-	width: 100%;
+	max-width: 1600px;
+	min-width: 1600px;
 	height: auto;
 	position: absolute;
 	border: 1px solid white;
 	background-size: cover;
 	background-position: center;
+	display: block;
 }
 
 .bod{
@@ -83,18 +85,50 @@ body{
 	background: rgba(0,0,0,.8);
  }
  
- .menu ul{
+ .ul_prin{
  	margin-top: 21px;
  	background-color: black;
 	box-sizing: border-box;
 	background: rgba(0,0,0,.8);
 	text-transform: uppercase;
+	display: block;
 
  }
- .menu ul li{
+ .li_prin{
  	list-style: none;
- 	width: 400px;
- 	height: 23px;
+ 	width: 25%;
+ 	height: 5%;
+ 	margin-top: 5px;
+	margin-left: 21px;
+	text-align: left;
+	text-decoration: underline;
+	padding-top: 0;
+	padding-left: 7px;
+	border: 1px solid white;
+	color: white;
+	font-size: 17px;
+	border-radius: 5px;
+	background-color: grey;
+	opacity: 0.8;
+	background-color: black;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.8);
+	text-transform: uppercase;
+ }
+  .ul_sec{
+ 	margin-top: 21px;
+ 	background-color: black;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.8);
+	text-transform: uppercase;
+	display: block;
+
+ }
+ .li_sec{
+ 	list-style: none;
+ 	max-width: 400px;
+ 	min-width: 400px;
+ 	height: 5%;
  	margin-top: 5px;
 	margin-left: 21px;
 	text-align: left;
@@ -151,6 +185,7 @@ body{
 	margin-left: 21px;
 	opacity: 0.8;
 	margin-bottom: 12px;
+	display: block;
 }
 
 .formulario:hover{
@@ -159,7 +194,7 @@ body{
 .registro{
 	float: left;
 	margin-left: 74%;
-	margin-top: -34%;
+	margin-top: -500px;
 }
 
 .registro input{
