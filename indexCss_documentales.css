@@ -116,7 +116,7 @@ body{
  table tr td{
  	border: 1px solid white;
  }
- video{
+ iframe{
  	width: 98%;
  	height: 98%;
  }
