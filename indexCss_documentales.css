@@ -38,6 +38,10 @@ body{
 .header ul li a{
 	color: #fff;
 }
+a{
+	list-style: none;
+	color: #fff;
+}
 .content{
 	background-image: url("fond.jpg");
 	margin-top: 1%;

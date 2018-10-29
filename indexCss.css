@@ -210,3 +210,11 @@ body{
 		min-width: 1600px;
 	}
 }
+li:hover{
+	color: red;
+	background-color: green;
+	border: 1px solid white;
+}
+.li_prin:hover{
+	color: red;
+}
