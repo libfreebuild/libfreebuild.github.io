@@ -128,26 +128,26 @@
 	</form>
 	</div>
 	<div class="registro">
-	<form class="registro_form">
+	<form class="registro_form" action="registrar.php" method="post" id="form-register" onsubmit="return validar()">
 		<table>
 		<tr>
-			<td><input type="text" placeholder="Nombre" name="nombre"></td>
+			<td><input type="text" placeholder="Nombre" name="nombre" id="nombre"></td>
 		</tr>
 		<tr>
-			<td><input type="text" placeholder="Primer apellido"name="apellido"></td>
+			<td><input type="text" placeholder="Primer apellido"name="apellido" id="apellido"></td>
 		</tr>
 		<tr>
-			<td><input type="text" placeholder="Segundo apellido"name="apellido2"></td>
+			<td><input type="text" placeholder="Segundo apellido"name="apellido2" id="apellido2"></td>
 		</tr>
-		<tr><td><input type="text" placeholder="dd/mm/AAAA"name=""></td></tr>
+		<tr><td><input type="text" placeholder="dd/mm/AAAA"name="" id="fecha" name="fecha"></td></tr>
 		<tr>
-			<td><input type="text" placeholder="Correo Electrónico"name="correo"></td>
+			<td><input type="text" placeholder="Correo Electrónico"name="correo" id="correo"></td>
 		</tr>
 		<tr>
-			<td><input type="password" placeholder="Contraseña" name="password1"></td>
+			<td><input type="password" placeholder="Contraseña" name="contraseña" id="contraseña"></td>
 		<tr>
 		<tr>
-			<td><input type="password2" placeholder="Confirmar contraseña" name="password"></td>
+			<td><input type="password2" placeholder="Confirmar contraseña" name="contraseña0" id="contraseña0"></td>
 		</tr>
 		<tr><td><input type="submit" value="Registrarse" name="login"></td></tr>
 	</table>
