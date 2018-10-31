@@ -137,16 +137,11 @@ body{
 	opacity: ;
 }
  p{
- 	color: white;
- 	padding: 1px;
- 	opacity: .8;
- 	background-color: white;
- 	color: black;
- 	padding: 14px;
- 	margin: 15px;
- 	font-size: 17px;
+ 	
  }
- 
+ a{
+ 	color: black;
+ }
  h3{
  	background-color: black;
  	text-align: left;
@@ -182,6 +177,7 @@ body{
 	height: 230px;
 	float:left;
 	opacity: .6;
+	color: black;
 }
 .contenedor:hover{
 	opacity: 1;
@@ -212,7 +208,7 @@ body{
 }
  .texto{
 	font-size: 1.2em;
-	color:white;
+	color:black;
 	text-align: center;
 	padding-top: ;
 	opacity: .6;
@@ -265,4 +261,13 @@ body{
 }
 .ad_:hover{
 	opacity: 1;
+}
+.parrafos{
+	background-color: white;
+	color:black;
+ 	padding: 1px;
+ 	opacity: .8;
+ 	padding: 14px;
+ 	margin: 15px;
+ 	font-size: 17px;
 }
