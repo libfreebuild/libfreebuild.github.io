@@ -38,55 +38,6 @@ body{
 .header ul li a{
 	color: #fff;
 }
-.ana_fo table {
-	border: 3px solid white;
-	background color: black;
-	height: 24px;
-}
-.ana_fo table, tr{
-	border: 1px solid white;
-	background-color: black;
-	height: 24px;
-	margin-left: 4px;
-	margin-right: 4px;
-	padding: 7px;
-}
-.ana_fo_win a {
-	color: #fff;
-	font-size: 24px;
-	text-decoration: none;
-	background-color: ;
-	max-width: 200px;
-	text-align: center;
-	color: white;
-}
-
-.ana_fo_li a {
-	color:white;
-	font-size: 24px;
-	text-decoration: none;
-	background-color: none;
-	margin-top: ;
-	text-align: center;
-}
-.ana_fo_ma a {
-	color:white;
-	font-size: 24px;
-	text-decoration: none;
-	background-color: none;
-	margin-top: ;
-}
-.content{
-	background-image: url("../imgs/backgrounds/fond.jpg");
-	margin-top: 1%;
-	width: 100%;
-	height: auto;
-	position: absolute;
-	border: 1px solid white;
-	background-size: cover;
-	background-position: center;
-}
-
 .bod{
 	width: 97%;
 	height: 39px;
@@ -123,6 +74,18 @@ body{
 	background: rgba(0,0,0,.8);
 	text-decoration: uppercase;
  }
+.content{
+	background-image: url("../../../imgs/backgrounds/fond.jpg");
+	margin-top: 1%;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	border: 1px solid white;
+	background-size: cover;
+	background-position: center;
+}
+
+
 #cua_0 {
 	border: 1px solid white;
 	width: 87%;
@@ -136,47 +99,7 @@ body{
 #cua_0:hover{
 	opacity: ;
 }
- p{
- 	color: white;
- 	padding: 1px;
- 	opacity: .8;
- 	background-color: white;
- 	color: black;
- 	padding: 14px;
- 	margin: 15px;
- 	font-size: 17px;
- }
- 
- h3{
- 	background-color: black;
- 	text-align: left;
- 	color: #fff;
- 	text-decoration: underline;
- 	margin: 3px;
- 	padding: 3px;
- 	margin-left: 4px;
- }
- .tabla{
-	border:1px solid black;
-	text-align: center;
-	margin-top: 2%;
-	background-color: grey;
-	color: white;
-	margin-left: 27px;
-	border-radius: 5px;
-	border: 1px solid white;
-}
-.tabla_{
-	border:1px solid black;
-	text-align: center;
-	margin-top: 2%;
-	background-color: grey;
-	color: white;
-	margin-left: 27px;
-	border-radius: 5px;
-	border: 1px solid white;
-	margin-top: 250px;
-}
+
 .contenedor{
 	width: 180px;
 	height: 230px;
@@ -184,7 +107,7 @@ body{
 	opacity: .6;
 }
 .contenedor:hover{
-	opacity: 1;
+	opacity: ;
 }
 
 #color_b{
@@ -220,14 +143,7 @@ body{
 	porque queremos que le afecte a padding-top cuando pongamos
 	el ratón encima de contenedor*/
 }
-.contenedor:hover .texto { /*Al hacer hover en contendor
-	afectará a texto*/
-	padding-top: 10px;
-	opacity: 1;
-}
-.contenedor:hover .icon{
-	box-shadow: 0px 0px 0px 0px rgba(255,255,255,.6);
-}
+
 .icon_return{
 	margin-right: 2px;
 	margin-top: 2px;
@@ -238,31 +154,57 @@ body{
 	padding-right: 7px;
 }
 
-.ad{
-	border: 1px solid white;
-	width: 87%;
-	height: 89%;
-	margin-top: 1%;
-	color: white;
-	background-color: black;
-	opacity: 0.8;
-	text-align: left;
-	margin-top: 250px;
-}
-.ad:hover{
-	opacity: 1;
-}
-.ad_{
-	border: 1px solid white;
-	width: 87%;
-	height: 89%;
-	margin-top: 1%;
-	color: white;
-	background-color: black;
-	opacity: 0.8;
-	text-align: left;
 
+.vpn{
+	width:200px;
+	height: 200px;
+	padding: 47px;
 }
-.ad_:hover{
-	opacity: 1;
+.titulo{
+	text-align: center;
+	border: 1px solid white;
+}
+.tabla_1{
+	border: 1px solid white;
+	margin-bottom: 20px;
+}
+.tabla tr{
+	border:1px solid white;
+}
+.tabla tr td{
+	border: 1px solid white;
+}
+.tabla_2{
+	color: white;
+	border: 1px solid white;
+	margin-top:;
+	position: absolute;
+}
+.tabla_2 tr{
+	width: 30px;
+	height: 30px;
+	color: #fff;
+	border: 1px solid white;
+}
+.tabla_2 tr td{
+	border: 1px solid white;
+	padding: 7px;
+	background-color: black;
+}
+.contenedor{
+}
+.titulo{
+	text-decoration: underline;
+}
+p{
+	border: 1px solid white;
+	padding: 56px;
+	margin-left: 3%;
+	margin-right: 3%;
+	background:white;
+	color: black;
+	font-size: 17px;
+}
+h2{
+	text-decoration: underline;
 }

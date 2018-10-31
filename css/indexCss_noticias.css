@@ -49,7 +49,42 @@ body{
 	background-size: cover;
 	background-position: center;
 }
-
+.bod{
+	width: 97%;
+	height: 39px;
+	margin-top: 39px;
+	margin-left: 21px;
+	text-align: center;
+	text-decoration: underline;
+	padding-top: 7px;
+	padding-left: 7px;
+	border: 1px solid white;
+	color: white;
+	font-size: 24px;
+	border-radius: 5px;
+	background-color: black;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.8);
+	text-decoration: uppercase;
+ }
+.bod_{
+	width: 420px;
+	height: 39px;
+	margin-top: 11px;
+	margin-left: 21px;
+	text-align: left;
+	text-decoration: underline;
+	padding-top: 7px;
+	padding-left: 7px;
+	border: 1px solid white;
+	color: white;
+	font-size: 24px;
+	border-radius: 5px;
+	background-color: black;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.8);
+	text-decoration: uppercase;
+ }
 
 #cua_0 {
 	border: 1px solid white;
@@ -57,12 +92,12 @@ body{
 	height: 89%;
 	margin-top: 1%;
 	color: white;
-	background-color: black;
+	background-color: ;
 	opacity: 0.8;
 	text-align: left;
 }
 #cua_0:hover{
-	opacity: 1;
+	opacity: ;
 }
 
 .contenedor{
@@ -72,7 +107,7 @@ body{
 	opacity: .6;
 }
 .contenedor:hover{
-	opacity: 1;
+	opacity: ;
 }
 
 #color_b{
@@ -123,18 +158,24 @@ body{
 .vpn{
 	width:200px;
 	height: 200px;
+	opacity: 2;
 }
 .titulo{
 	text-align: center;
+	border: 1px solid white;
 }
 .tabla_1{
 	border: 1px solid white;
+	margin-bottom: 20px;
+	background-color: black;
+	color: white;
 }
 .tabla tr{
 	border:1px solid white;
 }
 .tabla tr td{
 	border: 1px solid white;
+	background-color: white;
 }
 .tabla_2{
 	color: white;
@@ -154,4 +195,19 @@ body{
 	background-color: black;
 }
 .contenedor{
+}
+.titulo{
+	text-decoration: underline;
+}
+p{
+	border: 1px solid white;
+	padding: 56px;
+	margin-left: 3%;
+	margin-right: 3%;
+	color: black;
+	background-color: white;
+}
+a{
+	text-decoration: none;
+	color: white;
 }
