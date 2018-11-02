@@ -16,6 +16,8 @@ body{
 	box-sizing: border-box;
 	border: 1px solid white;
 	background: rgba(0,0,0,.8);
+		box-shadow: 8px 8px 5px 4px green;
+
 }
 .header ul{
 	list-style: none;
@@ -104,6 +106,8 @@ body{
 	box-sizing: border-box;
 	background: rgba(0,0,0,.8);
 	text-decoration: uppercase;
+		box-shadow: 8px 8px 5px 4px green;
+
  }
 .bod_{
 	width: 420px;
@@ -122,6 +126,8 @@ body{
 	box-sizing: border-box;
 	background: rgba(0,0,0,.8);
 	text-decoration: uppercase;
+		box-shadow: 8px 8px 5px 4px green;
+
  }
 #cua_0 {
 	border: 1px solid white;

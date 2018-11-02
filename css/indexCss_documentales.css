@@ -16,6 +16,7 @@ body{
 	box-sizing: border-box;
 	border: 1px solid white;
 	background: rgba(0,0,0,.8);
+	box-shadow: 8px 8px 5px 4px green;
 }
 .header ul{
 	list-style: none;
@@ -71,6 +72,8 @@ a{
 	box-sizing: border-box;
 	background: rgba(0,0,0,.8);
 	text-decoration: uppercase;
+	box-shadow: 8px 8px 5px 4px green;
+
  }
 .bod_{
 	width: 390px;
@@ -89,6 +92,8 @@ a{
 	box-sizing: border-box;
 	background: rgba(0,0,0,.8);
 	text-decoration: uppercase;
+	box-shadow: 8px 8px 5px 4px green;
+	
  }
 #cua_0 {
 	border: 1px solid white;
@@ -96,6 +101,7 @@ a{
 	height: 89%;
 	margin-top: 1%;
 	color: white;
+	box-shadow: 8px 8px 5px 4px green;
 }
  p{
  	color: white;
@@ -112,14 +118,21 @@ a{
  	border: 1px solid white;
  	width: 1400px;
  	height: auto;
+ 	opacity: 0.8;
  }
  table tr{
  	background-color: black;
  	border: 1px solid white;
  	margin: 10px 10px 10px 10px;
+ 	padding: 20px;
+
+	box-shadow: 10px 10px 5px  0.8 green;
  }
  table tr td{
  	border: 1px solid white;
+ 	padding: 20px;
+ 	box-shadow: 8px 8px 5px 4px green;
+ 	opacity: 0.8;
 
  }
  iframe{

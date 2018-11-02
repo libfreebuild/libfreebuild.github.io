@@ -14,6 +14,8 @@ body{
 	box-sizing: border-box;
 	border: 1px solid white;
 	background: rgba(0,0,0,.8);
+	box-shadow: 8px 8px 5px 4px green;
+
 }
 .header ul{
 	list-style: none;
@@ -29,10 +31,11 @@ body{
 .header ul li a{
 	line-height: 80px;
 	color: #151515;
-	padding: 12px 30px;
+	padding: 5px 30px;
 	text-decoration: none;
 	text-transform: uppercase;
 	transition: .3s;
+	border: 1px solid green;
 }
 .header ul li a{
 	color: #fff;
@@ -40,7 +43,7 @@ body{
 .header ul li a:hover{
 	background-color: white;
 	border: 1px solid white;
-	color: red;
+	color: green;
 }
 .content{
 	background-image: url("imgs/backgrounds/fond.jpg");
@@ -53,6 +56,8 @@ body{
 	background-size: cover;
 	background-position: center;
 	display: block;
+	box-shadow: 8px 8px 5px 4px green;
+
 }
 
 .bod{
@@ -72,6 +77,8 @@ body{
 	box-sizing: border-box;
 	background: rgba(0,0,0,.8);
 	text-transform: uppercase;
+	box-shadow: 8px 8px 5px 4px green;
+
  }
 .bod_{
 	width: 390px;
@@ -89,6 +96,8 @@ body{
 	background-color: grey;
 	box-sizing: border-box;
 	background: rgba(0,0,0,.8);
+	box-shadow: 8px 8px 5px 4px green;
+
  }
  
  .ul_prin{
@@ -218,11 +227,11 @@ body{
 		min-width: 1600px;
 	}
 }
-li:hover{
+li a:hover{
 	color: red;
 	background-color: ;
 	border: ;
-	color: red;
+	color: green;
 }
 .li_prin:hover{
 	color: ;
