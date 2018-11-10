@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>www.liberty_free.org</title>
+	<link rel="stylesheet" type="text/css" href="../css/indexCss_informatica_shell_bash.css"/>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128243245-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-128243245-1');
+</script>
+
+</head>
+<body>
+	<div class="content">
+		<div class="header">
+			<ul>
+				<li><a href="">Unix/Linux</a></li>
+				<li><a href="">Apple/Mac OS X</a></li>
+				<li><a href="">Windows</a></li>
+			</ul>
+		</div>
+		<div class="bod">Liberty Free</div>
+		<div class="bod_">Programación Shell Bash</div>
+		<div id="cua_0">
+			<h3>Variables de Entorno</h3><br>
+			<h2>Lista de las variables</h2>
+			<p class="parrafos">
+			Para ver la lista de las variables definidas en el shell actual utilizamos el comando <strong>-set</strong><br>
+			<strong>-set</strong></br>
+			Ver el contenido de una variable:</br>
+			<strong>-echo $HOME</strong></br>
+			Modificar el valor de una variable:</br>
+			<strong>-variable:valor</strong></br>
+			<strong>-echo $variable</strong></br>
+			<strong>-variable = 'palabra.1 palabra.2 '</strong></br>
+			<strong>-echo $variable</strong></br>
+			<p class="parrafos">
+			<strong>HOME</strong><br>
+			La variable HOME contiene la dirección de el inicio del usuario. No modificar.</p><br>
+			<p class="parrafos">
+			<strong>PATH</strong><br>
+			La variable PATH contiene una lista de directorios que el shell explora cuando este debe invocar un comando exteno</br>
+			<strong>-echo $PATH</strong><br></p>
+			<p class="parrafos">
+			
+			-find / -name date 2 > /dev/null</br>
+				-find / -name ping 2 > /dev/null
+			<br>
+			Busca en el directorio raiz (/) los nombres -date, y otro de nombre -ping mostrandonos donde se encuentran.<br> 
+			Los errores los redirecciona a /dev/null<br>
+			</p>
+			<p class="parrafos">
+				<strong>Definir un Alias:</strong><br>
+				-alias -l="ls -l"
+			</p>
+			<p class="parrafos">
+				<strong>Visualizar un Alias:</strong><br>
+				-alias
+			</p>
+			<p class="parrafos">
+				<strong>Eliminar un alias</strong><br>
+				-unalias l
+			</p>
+			<p class="parrafos">
+				<strong>Visualización de lista de opciones</strong><br>
+				-set -o
+				-set -o trackall
+			</p>
+			<p class="parrafos">
+				<strong>Comano -echo</strong><br>
+				El comando -echo se utiliza para mostrar por pantalla los mensajes que queramos, la opción -e hace que podamos interpretar los carácteres especiales<br>
+
+->\n<br><br>
+
+echo "Escribimos lo que queramos, salto de línea \ny otro \n el salto de línea. Salto de línea con \ + n"<br>
+
+echo a\nb<br>
+	Nos imprime directamente -> a\nb , sin salto de línea<br>
+Las comillas son obligatorias<br>
+echo -e "a\nb"<br><br>
+
+->\c<br>
+Con \ + c eliminamos el salto de línea del comando -echo despues de el último cierre<br>
+
+echo "Primera línea"; echo "Segúnda línea";<br>
+
+echo "Primera línea\c"; echo "Segúnda línea\c";<br>
+
+La opción -e es indispensable para interpretar "\c" correctamente<br><br>
+
+->\t<br>
+Permite mostrar una tabulación<br><br>
+
+echo "2 tabulaciones \t\tlisto..."<br>
+echo -e "2 tabulaciones con la opción -e \t\tlisto..."<br>
+
+Carácteres de escape<br>
+
+\a	Tono<br>
+\\	Brra invertida<br>
+\c	Eliminación de salto de línea al final de la línea<br>
+\f	Salto de página<br>
+\b	Borrado del carácter anterior<br>
+\n	Salto de línea<br>
+\t	tabulación horizontal<br>
+\r	Retorno de carro<br>
+\v	tabulación vertical<br>
+\0xxx	Valor de un carácter expresado en octal<br>
+			</p>
+			<p class="parrafos">
+				El carácter ~ significa el directorio de el usuario actual
+			</p>
+			<p class="parrafos">
+				<strong>-id</strong><br>
+				El comando -id muestra el -id de el usuario y el de el grupo al que pertenece
+			</p>
+			<p class="parrafos">
+				<strong>-pwd</strong>
+				Con el comando -pwd nos muestra el directorio actual
+			</p>
+			<p class="parrafos">
+				<strong>Copiar ficheros:</strong><br>
+				Copia el archivo -f1 al directorio actual del usuario<br>
+				<strong>-cp f1 ~</strong><br><br>
+
+				Copia el fichero /tmp/f1 a /usuario/docs<br>
+				<strong>-cp f1 ~/docs</strong><br>
+
+				Copia el archivo -f1 en el usuario -sebastian<br>
+				Si ~ va seguido de un nombre, se considera nombre de 				usuario<br>
+				<strong>-cp f1 ~sebastian</strong><br>
+				<strong>-ls /home/sebastian/f1</strong><br>
+
+				Copia el directorio -f1 en el directorio ~sebatian/dir<br>
+				<strong>-cp f1 ~sebastian/dir</strong><br>
+			</p>
+			<p class="parrafos">
+				<strong>El comando -cd</strong><br>
+				Para volver a el directorio de inicio utilizamos el comando -cd a secas<br>
+				<strong>-cd</strong><br>
+
+				Lo mismo que utilizando el carácter ~<br>
+
+				Cambiar al directorio -sebastian<br>
+				<strong>-cd ~sebastian</strong><br>
+
+				Volver al directorio anterios con -cd:<br>
+				<strong>-cd -</strong><br>
+			</p>
+			<p class="parrafos">
+			<strong>Expresiones básicas</strong><br>
+			<strong>-ls</strong><br>
+			Listar todos los nombres de los archivo que terminen por *.c<br>
+			<strong>-ls *.f</strong><br>
+
+			Mostrar todos los nombres de archivo que comiencen por la letra c:<br>
+			<strong>-ls c*</strong><br>
+
+			El signo de interrogación <strong>-?</strong> representa una letra cualquiera<br>
+
+			Nos muestra todos los nombres de los archivos que como extensión tengan una sola letra<br>
+			<strong>-ls *.?</strong><br>
+
+			Nos muestra todos los nombres de los archivos compuestos por 3 carácteres<br>
+			<strong>-ls ???</strong>
+
+			Los carácteres [] permiten especificar la lista de carácteres que se esperan en una posición concreta en el nombre del archivo.<br>
+
+			Archivos cuyo nombre empiece por -fu u -o y termine por el carácter . seguido de minúscula:<br>
+			<strong>-ls [fo]*.[a-z]</strong><br>
+
+			Archivos cuyos nombre tiene en el segundo carácter una mayúscula, una cifra o la letra i. Los dos carácteres tendrán a continuación una cadena cualquiera
+			Nos muestra los nombres de los archivos que empiecen por una letra cualquiera, como segundo carácter sea mayúscula desde la letra A hasta la letra Z,o un número del 0 al 9 o siemplemente sea como segunda letra le letra i minúscula.Seguido de el asterisco (*) que nos permite cualquier cadena de carácteres<br>
+			<strong>-ls ?[A-Z0-9i]*</strong><br>
+
+			
+			El signo exclamación (!) nos indica que el contrario de la regla que está entre corchetes en este caso, los archivos que no comiencen por minúsculas de la -a a la -z:<br>
+			<strong>-ls ![a-z]</strong><br>
+
+			Eliminar todos los archivos cuyo nombre terminen por .d o .e<br>
+			<strong>-rm -i *.d *.e</strong><br>
+
+			<strong>?(expresión)</strong><br>
+			Archivos cuyo nombre comience por "dis" seguido de 0 o 1 ocurrencias de "456", seguido de ".usi"<br>
+			<strong>-ls dis?(456).usi</strong><br>
+
+			<strong>*(expresión)</strong>
+			La expresión estará presente entre 0 y -n veces<br>
+			<strong>-ls dis*(456).usi</strong><br>
+
+			<strong>+(expresión)</strong><br>
+			La expresión estará presente entre 1 y -n <br>veces
+			<strong>-ls dis+(456).usi</strong>
+
+			<strong>@(expresión)</strong><br>
+			La expresión estará presente solo una vez<br>
+			<strong>-ls dis@(456).usi</strong><br>
+
+<strong>!(expresión)</strong><br>
+La expresión no estará presente<br>
+<strong>-ls dis!(456).usi</strong><br>
+
+<strong>Alternativas
+?(expresión|expresión|expresión...)<br>
+*(expresión|expresión|expresión...)<br>
++(expresión|expresión|expresión...)<br>
+@(expresión|expresión|expresión...)<br>
+!(expresión|expresión|expresión...)<br></strong>
+
+Archivos cuyo nombre comience por -dis seguido de -456 o -908 seguido de .usi<br>
+<strong>-ls dis@(456|908).usi</strong><br>
+
+Archivos cuyo nombre comience por -fic seguio de -1 a -n ocurrencias de -866 o -867 seguido de .usi<br>
+<strong>-ls dis+(456|908).log</strong><br>
+<strong>Separador por comas</strong><br>
+Al utilizar el punto y coma nos permite utilizar varios comandos en la misma línea<br>
+<strong>-rmdir dir ; mkdir dir; pwd</strong><br>
+<strong>Redirecciones</strong><br>
+Las redirecciones nos permiten almacenar el resultado de uno o varios comandos almacenandolos en archivos de texto por ejemplo.<br>
+<strong>Entrada y salida estándar de los procesos
+Redirección simple</strong>
+Se envía la salida del comando -pwd al archivo -salida_pwd, si no está el archivo se crea , si existe se sobreescribe<br>
+<strong>-pwd > salida_pwd</strong><br>
+<strong>-cat salida_pwd</strong><br>
+<strong>Redirección doble</strong>
+Añade a la salida de el comando -date a el archivo -resu<br>
+<strong>-date >> salida_pwd</strong><br>
+<strong>-cat salida_pwd</strong><br>
+<p class="parrafos">Ejecución de un script por un shell hijo:
+Normalmente en la mayoría de los casos, los scripts hay que ejecutarlos mediante un shell hijo como intermediario.<br>
+Se puede ejecutar un script de tres manera diferentes:<br>
+Método primero:<br>
+Invocamos el comando -ksh diciendole que nos ejecute el script número 1.<br>
+<strong>-ksh script_primero.sh</strong><br>
+Si mirásemos los permisos de ejecución de este scritp nos saldría algo así:<br>
+<strong> -rw-r--r-- ... script_primero.sh</strong>
+Segundo método:<br>
+<strong>-ksh < script_primero.sh</strong><br>
+Tercer método:<br>
+<strong>-chmod u+x script_primero.sh</strong><br>
+<strong>-ls -l script_primero.sh</strong><br>
+<strong>-rwr--r-- ... script_primero.sh</strong>
+<strong>script_primero.sh</strong><br>
+Éste método es el más utilizado, con el comando -chmod le aplicamos los permisos necesarios para poder ejecutar lo correctamente<br>
+</p>
+<p class="parrafos">
+	Parámetros posicionales:
+	En los scripts podemos recuperar los parámetros que le pasamos por línea de comandos.<br>
+	<strong>-$#:</strong> Número de argumentos recibidos.<br>
+	<strong>-$0:</strong> Nombre script.<br>
+	<strong>-$1:</strong> Primer argumento.<br>
+	<strong>-$2:</strong> Segundo argumento.<br>
+	<strong>-$3:</strong> Tercer argumento.<br>
+	Cuando las variables contienen más de una cifra es obligatorio utilizar los corchetes ${20},${21}, etc,etc <br>
+	<strong>-$* y $@:</strong> Representan todos los argumentos<br>
+	<strong>-nano primer_script.sh</strong><br>
+	<strong>echo "Número de argumentos: $#"</strong><br>
+	<strong>echo "Primer argumento: $1"</strong><br>
+	<strong>echo "Segundo argumento: $2"</strong><br>
+	<strong>echo "Tercer argumento: $3"</strong><br>
+	<strong>echo "Todos los argumentos: $*"</strong><br>
+	Le damos los permisos necesarios para su ejecución:<br>
+	<strong>-chmod u+x primer_script.sh</strong><br>
+	Llamamos a el script: primer_script.sh pasandole argumentos:<br>
+	<strong>primer_script.sh argumento1 argumento2 argumento3 7654 /dev/null<br>
+	Ejecucicón de el script:<br>
+	<strong>Número de argumentos: 4</strong><br>
+	<strong>Primer argumento: argumento1</strong><br>
+	<strong>Segundo argumento: argumento2</strong><br>
+	<strong>Tercer argumento: argumento3</strong><br>
+	<strong>7654</strong><br>
+	<strong>/dev/null</strong><br>
+
+</p>
+
+			</p>
+		</div>
+		<div class="bod_">Herramientas Forenses</div>
+			<div class="tabla">
+					<div id="color_b" class="contenedor">
+						<a href=""><img class="icon" src="../imgs/for_img/for_enc.jpg">
+						EnCase & Linen
+						</a></div >
+					<div id="color_b" class="contenedor">
+						<a href=""><img class="icon" src="../imgs/for_img/for_dd.jpg">
+						dd</a></div >
+			</div>
+			</div>
+			</div>
+			</center>
+			<div  class="footer"></div>
+</body>
+</html>
