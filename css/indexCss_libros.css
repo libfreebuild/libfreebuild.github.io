@@ -16,6 +16,7 @@ body{
 	box-sizing: border-box;
 	border: 1px solid white;
 	background: rgba(0,0,0,.8);
+	box-shadow: 8px 8px 5px 4px green;
 }
 .header ul{
 	list-style: none;
@@ -38,17 +39,18 @@ body{
 .header ul li a{
 	color: #fff;
 }
-
 .content{
 	background-image: url("../imgs/backgrounds/fond.jpg");
 	margin-top: 1%;
 	width: 100%;
-	height: auto;
+	height: 89%;
 	position: absolute;
 	border: 1px solid white;
+	text-transform: uppercase;
 	background-size: cover;
 	background-position: center;
 }
+
 .bod{
 	width: 97%;
 	height: 39px;
@@ -62,13 +64,15 @@ body{
 	color: white;
 	font-size: 24px;
 	border-radius: 5px;
+	background-color: grey;
+	text-transform: uppercase;
 	background-color: black;
 	box-sizing: border-box;
 	background: rgba(0,0,0,.8);
-	text-decoration: uppercase;
+	box-shadow: 8px 8px 5px 4px green;
  }
 .bod_{
-	width: 420px;
+	width: 390px;
 	height: 39px;
 	margin-top: 11px;
 	margin-left: 21px;
@@ -83,136 +87,30 @@ body{
 	background-color: black;
 	box-sizing: border-box;
 	background: rgba(0,0,0,.8);
-	text-decoration: uppercase;
+	text-transform: uppercase;
+	box-shadow: 8px 8px 5px 4px green;
  }
-
 #cua_0 {
 	border: 1px solid white;
 	width: 87%;
 	height: 89%;
+	opacity: ;
 	margin-top: 1%;
-	color: white;
-	background-color: ;
-	opacity: 0.8;
-	text-align: left;
 }
-#cua_0:hover{
-	opacity: ;
-}
-
-.contenedor{
-	width: 180px;
-	height: 230px;
-	float:left;
-	opacity: .6;
-}
-.contenedor:hover{
-	opacity: ;
-}
-
-#color_b{
-	width: 180px;
-	height: 230px;
-	transition: height .4s;
-	background-color: black;
-	box-sizing: border-box;
-	background: rgba(0,0,0,.8);
-	text-decoration: uppercase;
-	border:1px solid black;
-
-}
-
-.icon{
-	display: block;
-	margin: 7px auto;
-	background-color: rgba(255,255,255,.15);
-	width: 110px;
-	height: 120px;
-	padding: ;
-	border-radius: 2px;
-	box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
-	transition: box-shadow .4s;
-}
- .texto{
-	font-size: 1.2em;
-	color:white;
+table tr td{
+	width: 350px;
+	height: 300px;
+	border: 1px solid white;
 	text-align: center;
-	padding-top: ;
-	opacity: .6;
-	transition: padding-top .4s;	/*Le ponemos padding-top
-	porque queremos que le afecte a padding-top cuando pongamos
-	el ratón encima de contenedor*/
 }
+ table tr td a{
+ 	list-style: none;
+ 	text-decoration: none;
+ 	color: white;
+ }
+ 
 
-.icon_return{
-	margin-right: 2px;
-	margin-top: 2px;
-	margin-top: 0;
-	width: 25px;
-	height: 25px;
-	border-radius: 5px;
-	padding-right: 7px;
-}
-
-
-.vpn{
-	width:200px;
-	height: 200px;
-	opacity: 2;
-}
-.titulo{
-	text-align: center;
-	border: 1px solid white;
-}
-.tabla_1{
-	border: 1px solid white;
-	margin-bottom: 20px;
-	background-color: black;
-	color: white;
-}
-.tabla tr{
-	border:1px solid white;
-}
-.tabla tr td{
-	border: 1px solid white;
-	background-color: white;
-}
-.tabla_2{
-	color: white;
-	border: 1px solid white;
-	margin-top:;
-	position: absolute;
-}
-.tabla_2 tr{
-	width: 30px;
-	height: 30px;
-	color: #fff;
-	border: 1px solid white;
-}
-.tabla_2 tr td{
-	border: 1px solid white;
-	padding: 7px;
-	background-color: black;
-}
-.contenedor{
-}
-.titulo{
-	text-decoration: underline;
-}
-p{
-	border: 1px solid white;
-	padding: 56px;
-	margin-left: 3%;
-	margin-right: 3%;
-	color: black;
-	background-color: white;
-}
-a{
-	text-decoration: none;
-	color: white;
-}
-
-@font-face {
+ @font-face {
   font-family: 'icomoon';
   src:  url('../imgs/iconmoon/fonts/icomoon.eot?r4qvk0');
   src:  url('../imgs/iconmoon/fonts/icomoon.eot?r4qvk0#iefix') format('embedded-opentype'),
