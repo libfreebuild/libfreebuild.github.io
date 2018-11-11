@@ -46,12 +46,11 @@ body{
 	background-color: white;
 	border: 1px solid white;
 	color: green;
-}
-.content{
+}.content{
 	background-image: url("../imgs/backgrounds/fond.jpg");
 	margin-top: 1%;
 	width: 100%;
-	height: 89%;
+	height: 100%;
 	position: absolute;
 	border: 1px solid white;
 	text-transform: uppercase;
@@ -60,7 +59,7 @@ body{
 }
 
 .bod{
-	width: 97%;
+	width: 100%;
 	height: 39px;
 	margin-top: 39px;
 	margin-left: 21px;
@@ -100,25 +99,32 @@ body{
  }
 #cua_0 {
 	border: 1px solid white;
-	width: 87%;
-	height: 89%;
+	width: 100%;
+	height: auto;
 	opacity: ;
 	margin-top: 1%;
-	box-shadow: 8px 8px 5px 4px green;
 }
- a p{
+ p{
  	color: white;
  	padding: 1px;
+ 	align-content: center;
+ 	text-align: center;
  }
- a p:hover {
+ a{
+ 	list-style: none;
+ 	text-decoration: none;
+ }
+ table tr td{
+ 	border: 1px solid white;
  	background-color: black;
-	box-sizing: border-box;
-	background: rgba(0,0,0,.8);
- 	border: 1px solid red;
- 	color: white;
- 	width: 60%;
- 	height: 60%;
+ 	box-shadow: 3px 3px 3px green;
  }
+ table tr td img{
+ 	align-content: center;
+ 	margin-left: 15%;
+ 	margin-right: 15%;
+ }
+  
 
  @font-face {
   font-family: 'icomoon';
