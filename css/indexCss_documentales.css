@@ -17,6 +17,7 @@ body{
 	border: 1px solid white;
 	background: rgba(0,0,0,.8);
 	box-shadow: 8px 8px 5px 4px green;
+
 }
 .header ul{
 	list-style: none;
@@ -28,16 +29,23 @@ body{
 .header ul li{
 	list-style: none;
 }
+
 .header ul li a{
 	line-height: 80px;
 	color: #151515;
-	padding: 12px 30px;
+	padding: 5px 30px;
 	text-decoration: none;
 	text-transform: uppercase;
 	transition: .3s;
+	border: 1px solid green;
 }
 .header ul li a{
 	color: #fff;
+}
+.header ul li a:hover{
+	background-color: white;
+	border: 1px solid white;
+	color: green;
 }
 a{
 	list-style: none;
