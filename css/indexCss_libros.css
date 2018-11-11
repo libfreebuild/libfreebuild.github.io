@@ -108,6 +108,10 @@ table tr td{
  	text-decoration: none;
  	color: white;
  }
+ img{
+ 	width: 250px;
+ 	height: 250px;
+ }
  
 
  @font-face {
